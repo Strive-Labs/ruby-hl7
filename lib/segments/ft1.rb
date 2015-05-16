@@ -2,7 +2,6 @@
 # via https://github.com/bbhoss/ruby-hl7/blob/master/lib/segments/in1.rb
 require 'ruby-hl7'
 class HL7::Message::Segment::FT1 < HL7::Message::Segment
-  weight 3
   add_field :set_id
   add_field :transaction_id
   add_field :transaction_batch
