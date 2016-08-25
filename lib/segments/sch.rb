@@ -2,7 +2,6 @@
 # via https://github.com/Strive-Labs/ruby-hl7/blob/master/lib/segments/sch.rb
 require 'ruby-hl7'
 class HL7::Message::Segment::SCH < HL7::Message::Segment
-  weight 0
   add_field :placer_appointment_id
   add_field :filler_appointment_id
   add_field :occurance_number
